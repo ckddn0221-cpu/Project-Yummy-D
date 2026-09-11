@@ -1,0 +1,11 @@
+fastapi[all]
+uvicorn
+pydantic
+openai
+pandas
+xgboost
+scikit-learn
+python-dotenv
+python-multipart
+torch --index-url https://download.pytorch.org/whl/cpu
+transformers

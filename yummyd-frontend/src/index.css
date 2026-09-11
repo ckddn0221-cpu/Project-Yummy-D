@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #f0ead3;
+  --color-brand-surface0: #f0f5f2;
+  --color-brand-surface1: #fce7d4;
+  --color-brand-surface: #F1EFE6;
+  --color-brand-primary: #2D5A3D;
+  --color-brand-yellow: #FFD93D;
+  --color-brand-pink: #FF6B9D;
+  --color-brand-mint: #7FDBCA;
+  --color-brand-orange: #FF9F43;  
+  --color-brand-coral: #FF7F50; 
+  --color-brand-purple: #A78BFA; 
+  --color-brand-sky: #60A5FA;  
+  --color-brand-lime: #A3E635;
+  --color-brand-surface: #F9F8F0; 
+  --color-brand-gray: #E5E7EB; 
+  --color-brand-gold: #FDE68A; 
+  --color-brand-emerald: #6EE7B7; 
+  --color-brand-hotpink: #EC4899; 
+  
+  --font-brand-kor: 'YummyKor', 'Pretendard', sans-serif;
+  --font-brand-eng: 'YummyEng', 'Pretendard', sans-serif;
+}
+
+@font-face {
+  font-family: 'YummyKor';
+  src: url('/fonts/kor.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YummyEng';
+  src: url('/fonts/eng.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-primary);
+  font-family: 'YummyEng', 'YummyKor', 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node server.js)",
+      "Bash(cmd /c \"taskkill /PID 13640 /F\")"
+    ]
+  }
+}
